@@ -1,9 +1,11 @@
+const inputText = document.querySelector("#input-text");
+const outputText = document.querySelector("#output-text");
+
 document.querySelector("#btn-translate").addEventListener("click", function () {
-  var url =
-    "https://api.funtranslations.com/translate/pirate.json" +
-    "?text=" +
-    document.querySelector("#input-text").value;
-  fetch(url)
+  fetch(
+    "https://api.funtranslations.com/translate/pirate.json?text=" +
+      inputText.value
+  )
     .then((response) => response.json())
     .then(
       (json) =>
