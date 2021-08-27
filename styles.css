@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+body { 
+    text-align: center;
+    margin: 0;
+    font-family: 'Pirata One', cursive;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.header { 
+    height: 5rem;
+    background-color: #AC0404;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+textarea {
+    display: block;
+    height: 15vh;
+    width: 100%;
+    margin: 5rem 0 1rem 0;
+  }
+
+  button {
+      background-color: #AC0404;
+      width: 30%;
+      height: 7vh;
+      border: none;
+      font-family: 'Pirata One', cursive;
+    font-size: large;
+    color: white;
+  }
+
+  #output-text {
+    height: 15vh;
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 0.5rem;
+  }
+
+  .app-body {
+      text-align: left;
+      width: 40%;
+      margin-left: 30%;
+  }
+
+  .app-body p {
+      color: gray;
+  }
+
+  .footer {
+    height: 10rem;
+    width: 100%;
+    background-color: #AC0404;
+    position: fixed;
+    bottom: 0;  
+}
+
+.footer p {
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+textarea::placeholder {
+    font-family: 'Pirata One', cursive;
+    font-size: large;
+    color: gray;
+}
